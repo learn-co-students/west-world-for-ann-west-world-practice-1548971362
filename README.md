@@ -68,7 +68,7 @@ IMPORTANT: Once you have successfully rendered the correct areas and the hosts i
 Follow these rules for activating and decommissioning hosts:
 
 1. On load of the page, your `Details` component should show an image that is the West World logo.
-2. Clicking on any `Host` component will have the `Details` component display more information about that `Host`. **Is there a component that might be useful for displaying info about a host??? Perhaps you should have the Details component render another component...***
+2. Clicking on any `Host` component will have the `Details` component display more information about that `Host`. ***Is there a component that might be useful for displaying info about a host??? Perhaps you should have the Details component render this other component...***
 3. If a host's active attribute is set to false then they are decommissioned and should appear in ColdStorage. The HostInfo radio button should reflect this as well, reading "Active" if `active: true` and "Decommissioned" if `active: false`.
 4. Clicking on the radio button toggles the active status of that host, and the `WestworldMap` and `ColdStorage` should re-render accordingly.
 
